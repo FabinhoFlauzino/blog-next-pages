@@ -12,9 +12,9 @@ export function Header() {
           <Logo />
 
           <nav className="flex items-center gap-6">
-            <ActiveLink href="/">Ínicio</ActiveLink>
+            <ActiveLink href="/">Início</ActiveLink>
             <ActiveLink href="/blog">Blog</ActiveLink>
-            <Button variant="default" asChild>
+            <Button variant="secondary" asChild>
               <Link href="/comecar">
                 Começar
               </Link>
