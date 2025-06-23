@@ -1,7 +1,8 @@
+
 import { ArrowRight } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Button } from '../ui/button';
+import { Button } from '../../../../components/ui/button';
 
 export const FeatureSection = () => {
   return (
@@ -34,10 +35,10 @@ export const FeatureSection = () => {
             <h2 className="font-sans text-gray-100 text-heading-lg">
               Tenha uma loja online personalizada com a cara da sua marca
             </h2>
-            
+
             <Button
               asChild
-              className="w-fit rounded-full hidden mt-auto md:flex"
+              className="w-fit rounded-full hidden mt-4 md:mt-auto md:flex"
             >
               <Link href="/criar-loja">
                 Criar loja grátis
@@ -52,7 +53,7 @@ export const FeatureSection = () => {
                 alt="Features"
                 width={440}
                 height={330}
-                className="w-full h-auto object-contain"
+                className="object-contain w-full"
               />
             </div>
             <Button
