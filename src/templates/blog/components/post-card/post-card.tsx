@@ -25,7 +25,7 @@ export const PostCard = ({ slug, title, description, image, date, author }: Post
           </div>
           <Image
             src={image}
-            alt=""
+            alt={title}
             width={288}
             height={144}
             className="w-full h-40 object-cover object-center rounded-t-2xl"
@@ -33,9 +33,9 @@ export const PostCard = ({ slug, title, description, image, date, author }: Post
         </div>
 
         <div className="px-2 mt-4 space-y-4">
-          <h2 className="text-heading-sm text-gray-100 line-clamp-3">{title}</h2>
+          <h2 className="text-heading-sm text-gray-100 line-clamp-2">{title}</h2>
 
-          <p className="text-gray-300 text-body-sm line-clamp-3">
+          <p className="text-gray-300 text-body-sm line-clamp-2">
            {description}
           </p>
 
