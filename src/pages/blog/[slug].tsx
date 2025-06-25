@@ -32,7 +32,7 @@ export default function PostPage() {
           <figure className="relative aspect-[16/10] w-full overflow-hidden rounded-lg">
             <Image 
               src={post?.image ?? ""}
-              alt={post?.title || ""}
+              alt={post?.title ?? ""}
               fill
               className="object-cover"
             />
