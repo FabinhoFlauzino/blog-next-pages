@@ -48,7 +48,7 @@ export default function PostPage() {
             <header className="p-4 md:p-6 lg:p-12 pb-0 mt-8">
               <h1 className="mb-8 text-balance text-heading-lg md:text-heading-xl lg:text-heading-xl">{post?.title}</h1>
               <Avatar.Container>
-                <Avatar.Image src={post?.author.avatar} alt={post?.title} />
+                <Avatar.Image src={post?.author.avatar} alt={post?.title} size="sm"/>
                 <Avatar.Content>
                   <Avatar.Title>{post?.author.name}</Avatar.Title>
                   <Avatar.Description>
