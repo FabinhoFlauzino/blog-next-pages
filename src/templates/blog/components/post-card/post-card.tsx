@@ -28,7 +28,7 @@ export const PostCard = ({ slug, title, description, image, date, author }: Post
             alt={title}
             width={288}
             height={144}
-            className="w-full h-40 object-cover object-center rounded-t-2xl"
+            className="w-full h-40 object-cover object-center rounded-2xl"
           />
         </div>
 
