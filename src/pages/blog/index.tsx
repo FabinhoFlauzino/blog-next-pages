@@ -3,7 +3,6 @@ import { allPosts } from "contentlayer/generated";
 import { GetStaticProps } from "next";
 
 export default function BlogPage({posts}: BlogListProps) {
-  console.log(posts)
   return (
     <BlogList posts={posts}/>
   )
