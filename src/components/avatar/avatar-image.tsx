@@ -16,7 +16,6 @@ export const AvatarImage = ({
   src,
   alt,
   size = 'xs',
-
   ...rest
 }: AvatarImageProps) => {
   return (
